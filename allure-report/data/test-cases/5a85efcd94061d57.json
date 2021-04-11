@@ -1,0 +1,62 @@
+{
+  "uid" : "5a85efcd94061d57",
+  "name" : "test_not_equal",
+  "fullName" : "test_pytest_1.TestSample#test_not_equal",
+  "historyId" : "ce48c29df3306cf9ea57b8fb770abeb1",
+  "time" : {
+    "start" : 1618131902383,
+    "stop" : 1618131902383,
+    "duration" : 0
+  },
+  "description" : "testcase2",
+  "descriptionHtml" : "<p>testcase2</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_2"
+  }, {
+    "name" : "story",
+    "value" : "test_story_2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSample"
+  }, {
+    "name" : "host",
+    "value" : "huahuadeAir"
+  }, {
+    "name" : "thread",
+    "value" : "1726-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a85efcd94061d57.json",
+  "parameterValues" : [ ]
+}

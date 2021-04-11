@@ -1,0 +1,64 @@
+{
+  "uid" : "41dfb5e10ccc4703",
+  "name" : "test_equal",
+  "fullName" : "test_pytest_1.TestSample#test_equal",
+  "historyId" : "5755df586353abf997a633f441d6edb1",
+  "time" : {
+    "start" : 1618134341445,
+    "stop" : 1618134341445,
+    "duration" : 0
+  },
+  "description" : "testcase1",
+  "descriptionHtml" : "<p>testcase1</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "self = <test_pytest_1.TestSample object at 0x7fe8e8943f70>\n\n    @allure.feature('test_module_1')\n    @allure.story('test_story_1')\n    @allure.severity('blocker')\n    def test_equal(self):\n        \"\"\"testcase1\"\"\"\n>       assert 1==2\nE       assert 1 == 2\n\ntest_pytest_1.py:10: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_1"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "test_story_1"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSample"
+  }, {
+    "name" : "host",
+    "value" : "huahuadeAir"
+  }, {
+    "name" : "thread",
+    "value" : "2630-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41dfb5e10ccc4703.json",
+  "parameterValues" : [ ]
+}

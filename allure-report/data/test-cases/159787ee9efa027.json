@@ -1,0 +1,97 @@
+{
+  "uid" : "159787ee9efa027",
+  "name" : "test_equal",
+  "fullName" : "test_pytest_1.TestSample#test_equal",
+  "historyId" : "5755df586353abf997a633f441d6edb1",
+  "time" : {
+    "start" : 1618148992729,
+    "stop" : 1618148992729,
+    "duration" : 0
+  },
+  "description" : "testcase1",
+  "descriptionHtml" : "<p>testcase1</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "test_story_1_故事"
+  }, {
+    "name" : "feature",
+    "value" : "test_module_模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker严重等级"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSample"
+  }, {
+    "name" : "host",
+    "value" : "huahuadeAir"
+  }, {
+    "name" : "thread",
+    "value" : "3518-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "41dfb5e10ccc4703",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2",
+      "time" : {
+        "start" : 1618134341445,
+        "stop" : 1618134341445,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ab6be1d628c1cdd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618132596688,
+        "stop" : 1618132596688,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "871072d7fe035c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618132409842,
+        "stop" : 1618132409842,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "807251abb59c0b9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618131902382,
+        "stop" : 1618131902382,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "159787ee9efa027.json",
+  "parameterValues" : [ ]
+}
