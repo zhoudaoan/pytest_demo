@@ -1,0 +1,37 @@
+-
+  api_name: 获取网易新闻_test1
+  api_request:
+    url: https://api.apiopen.top/getWangYiNews
+    method: POST
+    headers:
+      Content-Type: application/json
+    params:
+      page: 1
+      count: 5
+  api_validate:
+    - eq: {code: 200}
+
+-
+  api_name: 获取网易新闻_test2
+  api_request:
+    url: https://api.apiopen.top/getWangYiNews
+    method: POST
+    headers:
+      Content-Type: application/json
+    params:
+      page: meituan
+      count: 5
+  api_validate:
+    - eq: {code: 200}
+
+-
+  api_name: 获取网易新闻_test3
+  api_request:
+    url: https://api.apiopen.top/getWangYiNews
+    method: POST
+    headers:
+      Content-Type: application/json
+    params:
+      count: 5
+  api_validate:
+    - eq: {code: 200}
