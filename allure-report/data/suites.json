@@ -1,18 +1,17 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "test_pytest_1",
     "children" : [ {
       "name" : "TestSample",
       "children" : [ {
         "name" : "test_equal",
-        "uid" : "159787ee9efa027",
+        "uid" : "3d799ac877e21887",
         "parentUid" : "63066153fbf42b1ee94228b4edfb1334",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1618148992729,
-          "stop" : 1618148992729,
+          "start" : 1618150150764,
+          "stop" : 1618150150764,
           "duration" : 0
         },
         "flaky" : false,
@@ -20,12 +19,12 @@
         "parameters" : [ ]
       }, {
         "name" : "test_not_equal",
-        "uid" : "d620906c7afe08d0",
+        "uid" : "f42863a3fa636023",
         "parentUid" : "63066153fbf42b1ee94228b4edfb1334",
         "status" : "passed",
         "time" : {
-          "start" : 1618148992730,
-          "stop" : 1618148992730,
+          "start" : 1618150150786,
+          "stop" : 1618150150786,
           "duration" : 0
         },
         "flaky" : false,
@@ -35,5 +34,6 @@
       "uid" : "63066153fbf42b1ee94228b4edfb1334"
     } ],
     "uid" : "a5cf9b5a6badce48ae703c489dcbff47"
-  } ]
+  } ],
+  "name" : "suites"
 }

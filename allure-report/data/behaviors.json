@@ -1,18 +1,17 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "test_module_模块",
     "children" : [ {
       "name" : "test_story_1_故事",
       "children" : [ {
         "name" : "test_equal",
-        "uid" : "159787ee9efa027",
+        "uid" : "3d799ac877e21887",
         "parentUid" : "3f11b40b4b806c6f2f0d15bbfd274ccc",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1618148992729,
-          "stop" : 1618148992729,
+          "start" : 1618150150764,
+          "stop" : 1618150150764,
           "duration" : 0
         },
         "flaky" : false,
@@ -28,12 +27,12 @@
       "name" : "test_story_2",
       "children" : [ {
         "name" : "test_not_equal",
-        "uid" : "d620906c7afe08d0",
+        "uid" : "f42863a3fa636023",
         "parentUid" : "4f3e1370d049278057746775d428fbe6",
         "status" : "passed",
         "time" : {
-          "start" : 1618148992730,
-          "stop" : 1618148992730,
+          "start" : 1618150150786,
+          "stop" : 1618150150786,
           "duration" : 0
         },
         "flaky" : false,
@@ -43,5 +42,6 @@
       "uid" : "4f3e1370d049278057746775d428fbe6"
     } ],
     "uid" : "35db8e629903b4052aecec1298b61c28"
-  } ]
+  } ],
+  "name" : "behaviors"
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "60b2f83eb464beec",
+  "uid" : "936f3ce04e595c44",
   "name" : "test_not_equal",
   "fullName" : "test_pytest_1.TestSample#test_not_equal",
   "historyId" : "ce48c29df3306cf9ea57b8fb770abeb1",
   "time" : {
-    "start" : 1618132409842,
-    "stop" : 1618132409843,
-    "duration" : 1
+    "start" : 1618148992730,
+    "stop" : 1618148992730,
+    "duration" : 0
   },
   "description" : "testcase2",
   "descriptionHtml" : "<p>testcase2</p>\n",
@@ -16,14 +16,14 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "normal"
+    "name" : "feature",
+    "value" : "test_module_2"
   }, {
     "name" : "story",
     "value" : "test_story_2"
   }, {
-    "name" : "feature",
-    "value" : "test_module_2"
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "suite",
     "value" : "test_pytest_1"
@@ -35,7 +35,7 @@
     "value" : "huahuadeAir"
   }, {
     "name" : "thread",
-    "value" : "1991-MainThread"
+    "value" : "3518-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -57,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "60b2f83eb464beec.json",
+  "source" : "936f3ce04e595c44.json",
   "parameterValues" : [ ]
 }

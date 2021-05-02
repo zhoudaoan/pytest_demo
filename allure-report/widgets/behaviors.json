@@ -4,10 +4,10 @@
     "uid" : "fe5184e100fbbb952371a19c3c7c9111",
     "name" : "test_module_模块",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

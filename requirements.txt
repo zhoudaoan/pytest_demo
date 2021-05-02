@@ -1,0 +1,6 @@
+#通过命令去pip install -r requirements.txt
+pytest-html
+allure-pytest
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures

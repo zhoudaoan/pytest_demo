@@ -1,15 +1,15 @@
 {
-  "uid" : "5a85efcd94061d57",
-  "name" : "test_not_equal",
-  "fullName" : "test_pytest_1.TestSample#test_not_equal",
-  "historyId" : "ce48c29df3306cf9ea57b8fb770abeb1",
+  "uid" : "be4b61f4f4848646",
+  "name" : "test_equal",
+  "fullName" : "test_pytest_1.TestSample#test_equal",
+  "historyId" : "5755df586353abf997a633f441d6edb1",
   "time" : {
-    "start" : 1618131902383,
-    "stop" : 1618131902383,
+    "start" : 1618131902382,
+    "stop" : 1618131902382,
     "duration" : 0
   },
-  "description" : "testcase2",
-  "descriptionHtml" : "<p>testcase2</p>\n",
+  "description" : "testcase1",
+  "descriptionHtml" : "<p>testcase1</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -17,13 +17,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "test_module_2"
-  }, {
-    "name" : "story",
-    "value" : "test_story_2"
+    "value" : "test_module_1"
   }, {
     "name" : "severity",
-    "value" : "normal"
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "test_story_1"
   }, {
     "name" : "suite",
     "value" : "test_pytest_1"
@@ -57,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5a85efcd94061d57.json",
+  "source" : "be4b61f4f4848646.json",
   "parameterValues" : [ ]
 }

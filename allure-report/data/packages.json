@@ -1,16 +1,15 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "test_pytest_1",
     "children" : [ {
       "name" : "test_equal",
-      "uid" : "159787ee9efa027",
+      "uid" : "3d799ac877e21887",
       "parentUid" : "ea49a04d449a64c3ca177424a2bf9e5e",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1618148992729,
-        "stop" : 1618148992729,
+        "start" : 1618150150764,
+        "stop" : 1618150150764,
         "duration" : 0
       },
       "flaky" : false,
@@ -18,12 +17,12 @@
       "parameters" : [ ]
     }, {
       "name" : "test_not_equal",
-      "uid" : "d620906c7afe08d0",
+      "uid" : "f42863a3fa636023",
       "parentUid" : "ea49a04d449a64c3ca177424a2bf9e5e",
       "status" : "passed",
       "time" : {
-        "start" : 1618148992730,
-        "stop" : 1618148992730,
+        "start" : 1618150150786,
+        "stop" : 1618150150786,
         "duration" : 0
       },
       "flaky" : false,
@@ -31,5 +30,6 @@
       "parameters" : [ ]
     } ],
     "uid" : "ea49a04d449a64c3ca177424a2bf9e5e"
-  } ]
+  } ],
+  "name" : "packages"
 }

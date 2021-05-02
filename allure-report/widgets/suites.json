@@ -4,10 +4,10 @@
     "uid" : "a5cf9b5a6badce48ae703c489dcbff47",
     "name" : "test_pytest_1",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 2
     }
