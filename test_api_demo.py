@@ -2,8 +2,10 @@
 
 import pytest
 import requests
+from jsonschema import validate
 
 from read_yaml import read_yaml
+from read_json import read_json,cmp_dict
 
 
 class TestApi:
@@ -13,21 +15,38 @@ class TestApi:
     #     print(args)
 
     #解包的用法(ddt,unittest找个框架实现数据驱动的装饰器,@unpack)
-    @pytest.mark.parametrize('args',read_yaml() )
-    def test_01_api(self,args):
+    # @pytest.mark.parametrize('args',read_yaml() )
+    # def test_01_api(self,args):
+    #     '''获得网页新闻的接口'''
+    #     url = args['api_request']['url']
+    #     method = args['api_request']['method']
+    #     headers = args['api_request']['headers']
+    #     params = args['api_request']['params']
+    #     validate = args["api_validate"]
+    #
+    #     if method == 'get':
+    #         requests.get()
+    #     else:
+    #         response=requests.post(url,json=params,headers=headers)
+    #         for val in validate:
+    #            assert val['eq']['code']==response.json()['code']
+
+    @pytest.mark.parametrize('args', read_json())
+    def test_01_api(self, args):
         '''获得网页新闻的接口'''
         url = args['api_request']['url']
         method = args['api_request']['method']
         headers = args['api_request']['headers']
         params = args['api_request']['params']
-        validate = args["api_validate"]
+        eq = args["api_validate"]["eq"]
 
         if method == 'get':
             requests.get()
         else:
-            response=requests.post(url,json=params,headers=headers)
-            for val in validate:
-               assert val['eq']['code']==response.json()['code']
+            response = requests.post(url,json=params,headers=headers)
+            # assert code == response.json()["code"]
+            # print(response.json())
+            cmp_dict(eq,response.json())
 
 
 
