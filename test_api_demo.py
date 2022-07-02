@@ -39,14 +39,18 @@ class TestApi:
         headers = args['api_request']['headers']
         params = args['api_request']['params']
         eq = args["api_validate"]["eq"]
+        try:
+            if method == 'get':
+                requests.get()
+            else:
+                response = requests.post(url,json=params,headers=headers)
+                # assert code == response.json()["code"]
+                # print(response.json())
+                cmp_dict(eq,response.json())
+        except Exception as e:
+            str_error = str(e)
+            print(str_error)
 
-        if method == 'get':
-            requests.get()
-        else:
-            response = requests.post(url,json=params,headers=headers)
-            # assert code == response.json()["code"]
-            # print(response.json())
-            cmp_dict(eq,response.json())
 
 
 

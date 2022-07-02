@@ -45,7 +45,7 @@ def cmp(src_data, dst_data):
         """若为dict格式"""
         for key in dst_data:
             if key not in src_data:
-                print("src_data与dst_data不相同的key："+key)
+                raise Exception("src_data与dst_data不相同的key："+key)
         for key in src_data:
             if key in dst_data:
                 thiskey = key
@@ -63,11 +63,11 @@ def cmp(src_data, dst_data):
             cmp(src_list, dst_list)
     else:
         if str(src_data) != str(dst_data):
-            print("src_data与dst_data不相同的value值是："+str(src_data))
+            raise Exception("src_data与dst_data不相同的value值是："+str(src_data))
 
 
 if __name__ == "__main__":
     # print(read_json())
     xx = {"111": None, "23456": {"22222": 9999, "33333": "0000", "list": ["3333", "4444", "111"]}}
-    yy = {"11": None, "23456": {"22222": 9999, "33333": "0000", "list": ["111", "3333", "4444"]}}
+    yy = {"111": None, "23456": {"22222": 9999, "33333": "0000", "list": ["11", "3333", "4444"]}}
     cmp(yy, xx)
