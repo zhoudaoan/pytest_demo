@@ -3,7 +3,7 @@
 import pytest
 import requests
 from jsonschema import validate
-
+import allure
 from read_yaml import read_yaml
 from read_json import read_json,cmp_dict
 
@@ -32,6 +32,9 @@ class TestApi:
     #            assert val['eq']['code']==response.json()['code']
 
     @pytest.mark.parametrize('args', read_json())
+    @allure.feature("1")
+    @allure.story("2")
+    @allure.title("用例标题")
     def test_01_api(self, args):
         '''获得网页新闻的接口'''
         url = args['api_request']['url']
