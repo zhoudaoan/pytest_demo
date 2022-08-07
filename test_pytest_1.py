@@ -7,7 +7,7 @@ class TestSample(object):
     @allure.severity('blocker严重等级')
     def test_equal(self):
         """testcase1"""
-        assert 1==2
+        assert 1==1
 
     @allure.feature('test_module_2')
     @allure.story('test_story_2')

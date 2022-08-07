@@ -40,6 +40,10 @@ def cmp_dict2(src_data, dst_data):
 
 
 # 对比两个json
+'''
+#不要传str类型的数据进来，因为不会走这个内部逻辑
+#src为接口请求的实际结果，dst为预期结果，结果相反可能会导致断言不准确
+'''
 def cmp(src_data, dst_data):
     if isinstance(src_data, dict):
         """若为dict格式"""
